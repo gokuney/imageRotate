@@ -1,0 +1,13 @@
+{
+  "name": "imageMagic",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "exif": "0.6.0",
+    "gm" : "1.21.1"
+    
+  }
+}
