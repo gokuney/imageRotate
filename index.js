@@ -30,10 +30,13 @@ try {
         	.write('./'+imageDst , function(err){
 				if(err){
 					console.log(err);
-				}
-			});
+				}else{
 
-			console.log('DONE ! Image saved as ' + imageDst);
+			 console.log('DONE ! Image saved as ' + imageDst);
+             
+                }
+            });
+
 }
 
 
